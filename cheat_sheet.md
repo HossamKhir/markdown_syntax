@@ -80,14 +80,15 @@ ___
 ```
 <!-- Table -->
 <!-- syntax 
-use pipes for vertical borders, use hyphens for heavy horizontal border
-| <cell>    | <cell>    |
-| --------- | --------- |
+use pipes for vertical borders, use hyphens for heavy horizontal border, the colons determine the alignment, it is aligned to the left as default
+| <cell>    | <cell>    | <cell>    | <cell>    |
+|:--        |:-:        |--:        |---        |
+|<left>     |<centre>   |<right>    |<default>  |
 -->
-|Name       | E-mail         |
-| -----     | ------         |
-| John Doe  | john@gmail.com |
-| Jane Doe  | jane@gmail.com |
+|Name       | E-mail            |
+| ---       | ---               |
+| John Doe  | john@gmail.com    |
+| Jane Doe  | jane@gmail.com    |
 
 <!-- Task List -->
 <!-- syntax 
