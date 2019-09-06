@@ -29,12 +29,26 @@ ___
 <!-- Blockquotes -->
 > This is a quote
 
+<!--Aligned text -->
+<center>Centered Text
+
+<p align="right">Right-aligned
+
+<!-- HTML tags -->
+<b>Bold text</b>
+
+<strong>Strong text</strong>
+
+<i>Italic</i>
+
+<u>Underlined text</u>
+
 <!-- Links -->
 [Google](http://google.com.eg "The famous google search engine")
 <!-- [Text to look like a link](<link> "what appears on hovering on link" -->
 
 <!-- Unordered List -->
-<!-- * <item> 
+<!-- * <item>
         * <nested_item> -->
 * Hossam
     * Mechatronics
@@ -79,19 +93,19 @@ ___
         return num1+num2
 ```
 <!-- Table -->
-<!-- syntax 
+<!-- syntax
 use pipes for vertical borders, use hyphens for heavy horizontal border, the colons determine the alignment, it is aligned to the left as default
 | <cell>    | <cell>    | <cell>    | <cell>    |
 |:--        |:-:        |--:        |---        |
-|<left>     |<centre>   |<right>    |<default>  |
+|<left>     |<centre>   |<right>    |<default(left)>  |
 -->
 |Name       | E-mail            |
-| ---       | ---               |
+| ---       | :-:               |
 | John Doe  | john@gmail.com    |
 | Jane Doe  | jane@gmail.com    |
 
 <!-- Task List -->
-<!-- syntax 
+<!-- syntax
 * [x] <task_complete>
 * [ ] <task_incomplete> -->
 * [x] Completed
