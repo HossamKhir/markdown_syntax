@@ -30,7 +30,7 @@ ___
 > This is a quote
 
 <!--Aligned text -->
-<center>Centered Text
+<center>Centered Text</center>
 
 <p align="right">Right-aligned
 
